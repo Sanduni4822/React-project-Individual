@@ -12,19 +12,32 @@ const Navbar = () => {
         {/* Navigation Links */}
         <ul className="flex space-x-8 text-white text-lg font-semibold">
           <li>
-            <a href="#">Home</a>
+            <a
+              href="#"
+              className="relative before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[3px] before:bg-pink-400 before:transition-all before:duration-300 hover:before:w-full"
+            >
+              Home
+            </a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#" className="hover:text-pink-400 transition duration-300">
+              About
+            </a>
           </li>
           <li>
-            <a href="#">Portfolio</a>
+            <a href="#" className="hover:text-pink-400 transition duration-300">
+              Portfolio
+            </a>
           </li>
           <li>
-            <a href="#">Service</a>
+            <a href="#" className="hover:text-pink-400 transition duration-300">
+              Service
+            </a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#" className="hover:text-pink-400 transition duration-300">
+              Contact
+            </a>
           </li>
         </ul>
       </div>
