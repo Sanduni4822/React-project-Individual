@@ -8,6 +8,25 @@ const Navbar = () => {
         <h1 className="text-white text-3xl font-extrabold tracking-wide">
           Portfolio<span className="text-pink-400">.</span>
         </h1>
+
+        {/* Navigation Links */}
+        <ul className="flex space-x-8 text-white text-lg font-semibold">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Portfolio</a>
+          </li>
+          <li>
+            <a href="#">Service</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
       </div>
     </nav>
   );
