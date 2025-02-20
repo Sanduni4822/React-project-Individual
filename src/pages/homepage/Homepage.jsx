@@ -1,11 +1,15 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaGlobe } from "react-icons/fa"; // Import icons
 import profileImage from "../../assets/My profile.jpg"; // Import the image
+import backgroundImage from "../../assets/Background.webp"; // Import your background image
 
 const Homepage = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-purple-900 to-blue-900 px-10">
-      <div className="flex flex-row bg-gray-900 text-white rounded-2xl shadow-lg p-12 w-full max-w-6xl items-center gap-12">
+    <div 
+      className="flex items-center justify-center min-h-screen bg-cover bg-center bg-no-repeat px-10"
+      style={{ backgroundImage: `url(${backgroundImage})` }} // Set background image
+    >
+      <div className="flex flex-row bg-gray-900 bg-opacity-80 text-white rounded-2xl shadow-lg p-12 w-full max-w-6xl items-center gap-12">
         
         {/* Content Section */}
         <div className="flex-1 text-left space-y-4">
