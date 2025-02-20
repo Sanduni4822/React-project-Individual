@@ -16,7 +16,7 @@ const Homepage = () => {
 
         {/* Image Section */}
         <div className="flex-1 flex justify-center">
-          <img src={profileImage} alt="Sanduni Wathsala" className="w-64 h-64 object-cover rounded-2xl shadow-lg" />
+          <img src={profileImage} alt="Sanduni Wathsala" className="w-64 h-64 object-cover rounded-full shadow-lg" />
         </div>
       </div>
     </div>
