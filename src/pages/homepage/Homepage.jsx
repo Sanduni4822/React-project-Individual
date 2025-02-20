@@ -4,7 +4,7 @@ import profileImage from "../../assets/My profile.jpg"; // Import the image
 const Homepage = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-purple-900 to-blue-900 p-6">
-      <div className="flex flex-row bg-gray-900 text-white rounded-2xl shadow-lg p-10 w-full max-w-4xl items-center">
+      <div className="flex flex-row bg-gray-900 text-white rounded-2xl shadow-lg p-10 w-full max-w-15xl items-center">
         {/* Content Section */}
         <div className="flex-1 text-left">
           <h1 className="text-4xl font-bold">Sanduni Wathsala</h1>
