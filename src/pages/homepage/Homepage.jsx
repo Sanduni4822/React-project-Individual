@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub, FaLinkedin, FaGlobe } from "react-icons/fa"; // Import icons
 import profileImage from "../../assets/My profile.jpg"; // Import the image
 
 const Homepage = () => {
@@ -11,11 +12,30 @@ const Homepage = () => {
           <h1 className="text-5xl font-extrabold">Sanduni Wathsala</h1>
           <h2 className="text-2xl font-semibold text-purple-400">Undergraduate</h2>
           <p className="text-gray-300 leading-relaxed max-w-lg">
-          I'm an enthusiastic undergraduate at the University of Peradeniya at the Faculty of science with a passion for web development and software engineering. As a  computer science, statistics and mathematics major,I have honed my analytical and problem-solving skills.
+            I'm an enthusiastic undergraduate at the University of Peradeniya at the Faculty of Science 
+            with a passion for web development and software engineering. 
+            As a computer science, statistics, and mathematics major, I have honed my analytical and problem-solving skills.
           </p>
-          <button className="bg-white text-gray-900 px-6 py-2 rounded-full font-medium hover:bg-gray-200 transition">
-            Download CV
-          </button>
+
+          {/* Button + Social Icons */}
+          <div className="flex items-center gap-6">
+            <button className="bg-white text-gray-900 px-6 py-2 rounded-full font-medium hover:bg-gray-200 transition">
+              Download CV
+            </button>
+
+            {/* Social Links */}
+            <div className="flex items-center gap-4">
+              <a href="https://github.com/Sanduni4822" target="_blank" rel="noopener noreferrer">
+                <FaGithub className="text-2xl hover:text-purple-400 transition cursor-pointer" />
+              </a>
+              <a href="https://www.linkedin.com/in/sanduni-wathsala-90894a254" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin className="text-2xl hover:text-blue-500 transition cursor-pointer" />
+              </a>
+              <a href="https://www.thecn.com/SW1559" target="_blank" rel="noopener noreferrer">
+                <FaGlobe className="text-2xl hover:text-green-400 transition cursor-pointer" />
+              </a>
+            </div>
+          </div>
         </div>
 
         {/* Image Section */}
