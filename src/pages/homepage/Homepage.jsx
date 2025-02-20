@@ -23,9 +23,14 @@ const Homepage = () => {
 
           {/* Button + Social Icons */}
           <div className="flex items-center gap-6">
-            <button className="bg-white text-gray-900 px-6 py-2 rounded-full font-medium hover:bg-gray-200 transition">
+            {/* ✅ Fixed Download CV Button */}
+            <a 
+              href="/Sanduni_Wathsala_CV.pdf" 
+              download="Sanduni_Wathsala_CV.pdf"
+              className="bg-white text-gray-900 px-6 py-2 rounded-full font-medium hover:bg-gray-200 transition"
+            >
               Download CV
-            </button>
+            </a>
 
             {/* Social Links */}
             <div className="flex items-center gap-4">
