@@ -6,15 +6,17 @@ const ContactPage = () => {
             className="bg-gray-900 text-white min-h-screen flex flex-col"
             style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
+            {/* Contact Me Title - Placed at the Top */}
+            <div className="text-center py-12">
+                <h1 className="text-5xl font-bold text-white">Contact Me</h1>
+            </div>
+
             {/* Main Content - Two Column Layout */}
-            <div className="flex-grow flex items-center justify-center py-12 px-6 md:px-16">
+            <div className="flex-grow flex items-center justify-center px-6 md:px-16">
                 <div className="max-w-6xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     
                     {/* Left Side - Contact Info */}
                     <div className="text-center md:text-left">
-                        <h1 className="text-5xl font-bold text-white mb-8 text-center md:text-left">
-                            Contact Me
-                        </h1>
                         <h2 className="text-4xl font-bold mb-6">
                             Let<span className="text-5xl font-semibold text-white">'s</span> Get in Touch
                         </h2>
