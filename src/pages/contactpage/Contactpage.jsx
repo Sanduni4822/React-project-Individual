@@ -43,7 +43,7 @@ const ContactPage = () => {
                         </div>
                     </div>
 
-                    {/* Right Side - Contact Form (Without Outer Layout) */}
+                    {/* Right Side - Contact Form */}
                     <form className="space-y-6 w-full">
                         <input
                             type="text"
@@ -61,7 +61,7 @@ const ContactPage = () => {
                         />
                         <button
                             type="submit"
-                            className="w-full py-3 bg-lime-400 text-black font-bold rounded-lg hover:bg-lime-500 transition-shadow shadow-md hover:shadow-lg"
+                            className="w-full py-3 bg-white text-black font-bold rounded-lg hover:bg-gray-300 transition-shadow shadow-md hover:shadow-lg"
                         >
                             Send Message
                         </button>
