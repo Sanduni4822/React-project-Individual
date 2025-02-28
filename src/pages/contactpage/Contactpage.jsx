@@ -75,7 +75,7 @@ const ContactPage = () => {
                                 className="w-full p-3 text-black rounded-lg focus:outline-none"
                                 required
                             />
-                            {errors.name && <p className="text-red-500 text-sm">{errors.name}</p>}
+                            {errors.name && <p className="text-white-500 text-sm">{errors.name}</p>}
                         </div>
 
                         <div>
@@ -88,7 +88,7 @@ const ContactPage = () => {
                                 className="w-full p-3 text-black rounded-lg focus:outline-none"
                                 required
                             />
-                            {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
+                            {errors.email && <p className="text-white-500 text-sm">{errors.email}</p>}
                         </div>
 
                         <div>
@@ -100,7 +100,7 @@ const ContactPage = () => {
                                 className="w-full p-3 h-32 text-black rounded-lg focus:outline-none"
                                 required
                             />
-                            {errors.message && <p className="text-red-500 text-sm">{errors.message}</p>}
+                            {errors.message && <p className="text-white-500 text-sm">{errors.message}</p>}
                         </div>
 
                         <button
