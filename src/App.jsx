@@ -1,17 +1,19 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";  // Import necessary components for routing
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Homepage from "./pages/homepage/Homepage";
-import Footer from "./components/Footer";  // Import Footer component
+import Contactpage from "./pages/contactpage/Contactpage";  // Import your Contact page
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Router>  {/* Wrap your entire app in Router for routing functionality */}
+    <Router>
       <div className="bg-gradient-to-r from-[#1e0342] to-[#512da8] min-h-screen">
-        <Navbar />  {/* Display the navigation bar */}
-        <Routes>  {/* Define your routes */}
-          <Route path="/" element={<Homepage />} />  {/* Homepage route */}
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/contact" element={<Contactpage />} />  {/* Add Contact Route */}
         </Routes>
-        <Footer />  {/* Footer will appear on every page */}
+        <Footer />
       </div>
     </Router>
   );
