@@ -17,10 +17,9 @@ const Homepage = () => {
           <h2 className="text-2xl font-semibold text-purple-400">Undergraduate</h2>
           <p className="text-gray-300 leading-relaxed max-w-lg">
             I'm an enthusiastic undergraduate at the University of Peradeniya at the Faculty of Science 
-            with a passion for web development and software engineering. 
+            with a passion for Web Development, Software Engineering, Quality Assurance Engineering & Data Analysis. 
             As a computer science, statistics, and mathematics major, I have honed my analytical and problem-solving skills.
           </p>
-
           {/* Button + Social Icons */}
           <div className="flex items-center gap-6">
             {/* ✅ Fixed Download CV Button */}
