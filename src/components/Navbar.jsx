@@ -24,7 +24,7 @@ const Navbar = () => {
               to="/about"
               className="hover:text-pink-400 transition duration-300"
             >
-              About
+              Skills
             </Link>
           </li>
           <li>
@@ -32,7 +32,7 @@ const Navbar = () => {
               to="/portfolio"
               className="hover:text-pink-400 transition duration-300"
             >
-              Portfolio
+              Projects
             </Link>
           </li>
           <li>
@@ -40,7 +40,7 @@ const Navbar = () => {
               to="/service"
               className="hover:text-pink-400 transition duration-300"
             >
-              Service
+              Education
             </Link>
           </li>
           <li>
