@@ -8,7 +8,7 @@ const Footer = () => {
           © 2025 | All Rights Reserved
         </p>
         <p className="text-sm">
-          Built with ❤️ using React.js and Tailwind CSS
+          Built with using React.js and Tailwind CSS
         </p>
       </div>
     </footer>
