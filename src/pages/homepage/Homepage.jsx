@@ -9,13 +9,16 @@ const Homepage = () => {
       className="flex items-center justify-center min-h-screen bg-cover bg-center bg-no-repeat px-10"
       style={{ backgroundImage: `url(${backgroundImage})` }} // Set background image
     >
-      <div className="flex flex-row bg-gray-900 bg-opacity-80 text-white rounded-2xl shadow-lg p-12 w-full max-w-6xl items-center gap-12">
+      <div className="flex flex-row text-white shadow-lg p-12 w-full max-w-6xl items-center gap-12">
         
         {/* Content Section */}
-        <div className="flex-1 text-left space-y-4">
-          <h1 className="text-5xl font-extrabold">Sanduni Wathsala</h1>
-          <h2 className="text-2xl font-semibold text-purple-400">Undergraduate</h2>
-          <p className="text-gray-300 leading-relaxed max-w-lg">
+        <div className="flex-1 text-left space-y-4 text-white">
+          <div className="flex space-x-4">
+            <h1 className="text-6xl font-extrabold">Sanduni</h1>
+            <h1 className="text-6xl font-extrabold">Wathsala</h1>
+          </div>
+          <h2 className="text-4xl font-semibold text-white">Undergraduate</h2>
+          <p className="text-white text-semibold leading-relaxed max-w-lg">
             I'm an enthusiastic undergraduate at the University of Peradeniya at the Faculty of Science 
             with a passion for Web Development, Software Engineering, Quality Assurance Engineering & Data Analysis. 
             As a computer science, statistics, and mathematics major, I have honed my analytical and problem-solving skills.
