@@ -1,6 +1,11 @@
+import backgroundImage from "../../assets/Background.webp";
+
 const ContactPage = () => {
     return (
-        <div className="bg-gray-900 text-white min-h-screen flex items-center justify-center py-12 px-6 md:px-16">
+        <div
+            className="bg-gray-900 text-white min-h-screen flex items-center justify-center py-12 px-6 md:px-16"
+            style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+        >
             <div className="max-w-6xl mx-auto w-full">
                 
                 {/* Contact Info Section */}
