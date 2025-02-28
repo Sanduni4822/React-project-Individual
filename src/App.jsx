@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";  // Import necessary components for routing
 import Navbar from "./components/Navbar";
 import Homepage from "./pages/homepage/Homepage";
-
+import Footer from "./components/Footer";  // Import Footer component
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
         <Routes>  {/* Define your routes */}
           <Route path="/" element={<Homepage />} />  {/* Homepage route */}
         </Routes>
+        <Footer />  {/* Footer will appear on every page */}
       </div>
     </Router>
   );
