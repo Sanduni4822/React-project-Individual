@@ -17,7 +17,7 @@ const EducationPage = () => {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen px-4">
             {educationData.map((edu, index) => (
-                <div key={index} className="bg-white text-black p-6 rounded-2xl shadow-lg w-80 text-center mb-6">
+                <div key={index} className="bg-gray-900 text-black p-6 rounded-2xl shadow-lg w-80 text-center mb-6">
                     <h3 className="text-xl font-bold">{edu.institution}</h3>
                     <p className="text-gray-600 text-lg mt-1">{edu.year}</p>
                     <p className="text-gray-500 mt-2">{edu.degree}</p>
