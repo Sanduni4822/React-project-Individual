@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 const skills = [
     { name: "HTML", level: 90, color: "bg-red-500" },
     { name: "CSS", level: 85, color: "bg-blue-500" },
@@ -23,7 +25,12 @@ const SkillsPage = () => {
                             <span className="text-lg font-semibold">{skill.level}%</span>
                         </div>
                         <div className="w-full bg-gray-700 rounded-full h-4">
-                            <div className={`h-4 rounded-full ${skill.color}`} style={{ width: `${skill.level}%` }}></div>
+                            <motion.div
+                                initial={{ width: 0 }}
+                                animate={{ width: `${skill.level}%` }}
+                                transition={{ duration: 1.5, ease: "easeOut" }}
+                                className={`h-4 rounded-full ${skill.color}`}
+                            />
                         </div>
                     </div>
                 ))}
@@ -31,6 +38,5 @@ const SkillsPage = () => {
         </div>
     );
 };
-
 
 export default SkillsPage;
