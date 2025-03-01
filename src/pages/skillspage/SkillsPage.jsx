@@ -17,14 +17,20 @@ const SkillsPage = () => {
             <h2 className="text-3xl font-bold text-center mb-6">My Skills</h2>
             <div className="space-y-4">
                 {skills.map((skill, index) => (
-                    <div key={index} className="flex justify-between mb-1">
-                        <span className="text-lg font-semibold">{skill.name}</span>
-                        <span className="text-lg font-semibold">{skill.level}%</span>
+                    <div key={index}>
+                        <div className="flex justify-between mb-1">
+                            <span className="text-lg font-semibold">{skill.name}</span>
+                            <span className="text-lg font-semibold">{skill.level}%</span>
+                        </div>
+                        <div className="w-full bg-gray-700 rounded-full h-4">
+                            <div className={`h-4 rounded-full ${skill.color}`} style={{ width: `${skill.level}%` }}></div>
+                        </div>
                     </div>
                 ))}
             </div>
         </div>
     );
 };
+
 
 export default SkillsPage;
