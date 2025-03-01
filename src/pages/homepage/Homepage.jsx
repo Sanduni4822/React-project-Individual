@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaGlobe } from "react-icons/fa"; // Import icons
-import profileImage from "../../assets/My profile.jpg"; // Import the image
-import backgroundImage from "../../assets/Background.webp"; // Import your background image
+import profileImage from "../../assets/My profile.jpg"; // Import profile image
+import backgroundImage from "../../assets/Background.webp"; // Import background image
 
 const Homepage = () => {
   return (
@@ -23,12 +23,15 @@ const Homepage = () => {
             with a passion for Web Development, Software Engineering, Quality Assurance Engineering & Data Analysis. 
             As a computer science, statistics, and mathematics major, I have honed my analytical and problem-solving skills.
           </p>
+          
           {/* Button + Social Icons */}
           <div className="flex items-center gap-6">
             {/* ✅ Fixed Download CV Button */}
             <a 
               href="/Sanduni_Wathsala_CV.pdf" 
               download="Sanduni_Wathsala_CV.pdf"
+              target="_blank" // Opens in a new tab
+              rel="noopener noreferrer"
               className="bg-white text-gray-900 px-6 py-2 rounded-full font-medium hover:bg-gray-200 transition"
             >
               Download CV
