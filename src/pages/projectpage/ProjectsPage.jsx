@@ -17,11 +17,11 @@ const Projects = () => {
                 <h2 className="text-4xl font-bold text-center mb-8">My Projects</h2>
                 <div className="flex justify-center">
                     <div className="relative group w-96">
-                        {/* Outer glow effect */}
-                        <div className="absolute inset-0 rounded-lg bg-transparent opacity-0 transition duration-300 group-hover:opacity-100 group-hover:shadow-[0px_0px_20px_5px_rgba(255,255,255,0.8)] pointer-events-none" />
+                        {/* Enhanced White Glow Effect */}
+                        <div className="absolute inset-0 rounded-lg bg-transparent opacity-0 transition duration-300 group-hover:opacity-100 group-hover:shadow-[0px_0px_30px_10px_rgba(255,255,255,1)] pointer-events-none" />
                         
                         {/* Project Card */}
-                        <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden w-96 transform transition-all duration-300 group-hover:scale-105 group-hover:shadow-gray-400">
+                        <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden w-96 transform transition-all duration-300 group-hover:scale-105 group-hover:shadow-white">
                             {projects.map((project, index) => (
                                 <div key={index}>
                                     <img src={project.image} alt={project.title} className="w-full h-52 object-cover" />
