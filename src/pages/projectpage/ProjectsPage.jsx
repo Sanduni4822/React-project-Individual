@@ -20,7 +20,7 @@ const Projects = () => {
                         <div className="p-6">
                             <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                             <p className="text-gray-300 mb-4">{project.description}</p>
-                            <button className="bg-lime-500 text-black px-4 py-2 rounded-lg font-semibold">
+                            <button className="bg-white text-black px-4 py-2 rounded-lg font-semibold">
                                 View Project
                             </button>
                         </div>
