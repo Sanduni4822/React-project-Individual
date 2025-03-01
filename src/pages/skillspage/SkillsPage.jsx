@@ -15,6 +15,14 @@ const SkillsPage = () => {
     return (
         <div className="max-w-3xl mx-auto p-8 bg-gray-900 text-white rounded-lg shadow-lg">
             <h2 className="text-3xl font-bold text-center mb-6">My Skills</h2>
+            <div className="space-y-4">
+                {skills.map((skill, index) => (
+                    <div key={index} className="flex justify-between mb-1">
+                        <span className="text-lg font-semibold">{skill.name}</span>
+                        <span className="text-lg font-semibold">{skill.level}%</span>
+                    </div>
+                ))}
+            </div>
         </div>
     );
 };
