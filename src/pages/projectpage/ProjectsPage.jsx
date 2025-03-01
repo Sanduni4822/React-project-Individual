@@ -1,4 +1,13 @@
 import React from "react";
+import hotelImage from "../../assets/hotel.jpeg";
+
+const projects = [
+    {
+        title: "Hotel Booking System",
+        description: "The hotel aims to provide customers with better services, accommodate more guests, and offer a lifetime experience as it continues to rise in popularity.",
+        image: hotelImage, 
+    },
+];
 
 const Projects = () => {
     return (
