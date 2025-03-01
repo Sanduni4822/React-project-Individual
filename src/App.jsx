@@ -1,10 +1,11 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Homepage from "./pages/homepage/Homepage";
-import Contactpage from "./pages/contactpage/Contactpage";  // Import your Contact page
+import Contactpage from "./pages/contactpage/Contactpage";  
 import Footer from "./components/Footer";
 import SkillsPage from "./pages/skillspage/SkillsPage";
 import ProjectsPage from "./pages/projectpage/ProjectsPage";
+import EducationPage from "./pages/educationpage/EducationPage";
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route path="/contact" element={<Contactpage />} />  {/* Add Contact Route */}
+          <Route path="/contact" element={<Contactpage />} />  
           <Route path="/skills" element={<SkillsPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/education" element={<EducationPage />} />
         </Routes>
         <Footer />
       </div>
