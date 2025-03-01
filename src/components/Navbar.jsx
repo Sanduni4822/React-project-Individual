@@ -21,7 +21,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/about"
+              to="/skills"
               className="hover:text-pink-400 transition duration-300"
             >
               Skills
