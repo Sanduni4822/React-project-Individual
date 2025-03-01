@@ -4,6 +4,7 @@ import Homepage from "./pages/homepage/Homepage";
 import Contactpage from "./pages/contactpage/Contactpage";  // Import your Contact page
 import Footer from "./components/Footer";
 import SkillsPage from "./pages/skillspage/SkillsPage";
+import ProjectsPage from "./pages/projectpage/ProjectsPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/contact" element={<Contactpage />} />  {/* Add Contact Route */}
           <Route path="/skills" element={<SkillsPage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
         </Routes>
         <Footer />
       </div>

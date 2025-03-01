@@ -29,7 +29,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/portfolio"
+              to="/projects"
               className="hover:text-pink-400 transition duration-300"
             >
               Projects
