@@ -16,7 +16,7 @@ const Projects = () => {
             <div className="w-full">
                 <h2 className="text-4xl font-bold text-center mb-8">My Projects</h2>
                 <div className="flex justify-center">
-                    <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden w-96">
+                    <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden w-96 hover:scale-105 hover:bg-gray-700 transition-all duration-300">
                         {projects.map((project, index) => (
                             <div key={index}>
                                 <img src={project.image} alt={project.title} className="w-full h-52 object-cover" />
