@@ -1,5 +1,5 @@
 import React from "react";
-import hotelImage from "../../assets/hotel.jpeg"; 
+import hotelImage from "../../assets/Hotel.jpeg"; 
 
 const projects = [
     {
